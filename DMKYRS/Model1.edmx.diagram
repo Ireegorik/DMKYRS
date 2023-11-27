@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c312b1a276ce439ca653f76c583bf572" Name="Diagram1">
+        <EntityTypeShape EntityType="ZadKyrsModel.Answers" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZadKyrsModel.Groups" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZadKyrsModel.Speciality" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZadKyrsModel.StudentAnswer" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZadKyrsModel.Students" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZadKyrsModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZadKyrsModel.Task" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZadKyrsModel.Teachers" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZadKyrsModel.Users" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="ZadKyrsModel.FK_Answers_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="ZadKyrsModel.FK_Students_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="ZadKyrsModel.FK_Task_Speciality" ManuallyRouted="false" />
+        <AssociationConnector Association="ZadKyrsModel.FK_Teachers_Speciality" ManuallyRouted="false" />
+        <AssociationConnector Association="ZadKyrsModel.FK_StudentAnswer_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="ZadKyrsModel.FK_StudentAnswer_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="ZadKyrsModel.FK_Students_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ZadKyrsModel.FK_Teachers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ZadKyrsModel.GroupStudent" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

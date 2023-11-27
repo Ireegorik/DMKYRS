@@ -1,0 +1,37 @@
+﻿<Window x:Class="DMKYRS.Windows.AddNewTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DMKYRS.Windows"
+        mc:Ignorable="d"
+        Title="AddNewTask" Height="889.682" Width="842.353">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="123*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="241*"/>
+            <ColumnDefinition Width="26*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Добавить" Grid.Column="1" Grid.Row="7" Click="Add"/>
+        <TextBox Name="Title" Grid.Column="1" TextWrapping="Wrap" Text="" FontSize="24" VerticalContentAlignment="Center"/>
+        <TextBox Name="About" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" Text="" FontSize="24" VerticalContentAlignment="Center"/>
+        <ComboBox Name="Group" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Width="674" Height="105" Margin="0,104,0,0" Grid.RowSpan="2"/>
+        <TextBox Name="RightAnswer" Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text="" FontSize="24" VerticalContentAlignment="Center"/>
+        <Label Content="Right" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Height="128" Width="87"/>
+        <TextBox x:Name="A1" Grid.Column="1" Grid.Row="3" TextWrapping="Wrap" Text="" FontSize="24" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="A2" Grid.Column="1" Grid.Row="4" TextWrapping="Wrap" Text="" FontSize="24" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="A3" Grid.Column="1" Grid.Row="5" TextWrapping="Wrap" Text="" FontSize="24" VerticalContentAlignment="Center" Margin="0,0,0,1"/>
+        <Label Content="1" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Height="128" Width="87" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>
